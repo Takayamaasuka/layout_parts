@@ -22,14 +22,25 @@
         </h2>
 
         <!--
-        Webサイトを作る際、コンタクトフォームを実装する機会がとても多くあります。
-        Q7で出てきた、inputやtextarea要素を使えばフォームをつくることができます。
-        この課題では、実際にユーザーが入力した値を送れる状態まで作っていただきます。answerの方で確認していただきたいのですが、全ての入力フォームを適当に記述してsubmitボタンを押してみてください。URL欄の最後に「?q10_1=...」という感じの文字列が追加されているのがわかると思います。
-        これが、入力した値を送信できている状態です。本来ではこの値をサーバーサイドで受け取ってフォームの処理をするのですが、今回はHTMLを使って送信するまでをやってもらいます。
-        answerで入力した値を自分で作ったフォームに全く同じように入力した場合、URLが全く同じように変わる状態にしてください。
-        また赤の*(アスタリスク)の部分は必須項目です。必須項目を空にしたまま送信しようとするとアラートが表示される処理も再現しましょう。
+        Webサイトを作る際、コンタクトフォームを実装する機会がとても
+        多くあります。
+        Q7で出てきた、inputやtextarea要素を使えばフォームをつくること
+        ができます。
+        この課題では、実際にユーザーが入力した値を送れる状態まで作って
+        いただきます。answerの方で確認していただきたいのですが、全ての
+        入力フォームを適当に記述してsubmitボタンを押してみてください。
+        URL欄の最後に「?q10_1=...」という感じの文字列が追加されているの
+        がわかると思います。
+        これが、入力した値を送信できている状態です。本来ではこの値をサー
+        バーサイドで受け取ってフォームの処理をするのですが、今回はHTML
+        を使って送信するまでをやってもらいます。
+        answerで入力した値を自分で作ったフォームに全く同じように入力した
+        場合、URLが全く同じように変わる状態にしてください。
+        また赤の*(アスタリスク)の部分は必須項目です。必須項目を空にした
+        まま送信しようとするとアラートが表示される処理も再現しましょう。
 
-        また、この問題はレイアウトが複雑なため、サイズや色の確認のためにデベロッパーツールを見ても構いません。
+        また、この問題はレイアウトが複雑なため、サイズや色の確認のために
+        デベロッパーツールを見ても構いません。
         ただ全ての答えを見るといったことはしないようにしましょう。
 
         ■この問題で使う大事なhtml要素
@@ -37,7 +48,67 @@
         ・input(type="submit")
         -->
         <!-- 回答はここに書いてね -->
-
+        <form class="q10">
+          <div class="q10__title">
+            <p class="title__text">Form Exercise</p>
+          </div>
+          <div class="clearfix">
+            <div class="main">
+              <ul class="main__items">
+                <li class="clearfix">
+                  <p class="main__items__title">
+                    name
+                    <span class="mark">*</span>
+                  </p>
+                  <div class="main__items__content">
+                    <input class="q10__input q10__input--init" type="text"
+                     name="q10_1" required>
+                  </div>
+                </li>
+                <li class="clearfix">
+                  <p class="main__items__title">Sex</p>
+                  <div class="main__items__content">
+                    <label class="radio">
+                      <input class="radio__btn" type="radio"
+                      name="q10_2" value="male">
+                      <span class="radio__txt">male</span>
+                    </label>
+                    <label class="radio">
+                      <input class="radio__btn" type="radio"
+                      name="q10_2" value="female">
+                      <span class="radio__txt">famale</span>
+                    </label>
+                  </div>
+                </li>
+                <li class="clearfix">
+                  <p class="main__items__title">
+                    Email
+                    <span class="mark">*</span>
+                  </p>
+                  <div class="main__items__content">
+                    <input class="q10__input q10__input--init" type="text"
+                    placeholder="ex) hoge@gmail.com" name="q10_3" required>
+                  </div>
+                </li>
+                <li class="clearfix">
+                  <p class="main__items__title">Telephone</p>
+                  <div class="main__items__content">
+                    <input class="q10__input q10__input--init" type="text"
+                     name="q10_4" placeholder="ex) 080123456678">
+                  </div>
+                </li>
+              </ul>
+              <div class="main__bottom">
+                <input class="main__bottom__btn q10__input--init" type="submit"
+                value="submit">
+              </div>
+              </div>
+            <div class="side">
+              <textarea class="side__text q10__input__init" name="q10_5"
+               placeholder="please fill in the message..."></textarea>
+            </div>
+          </div>
+        </form>
         <!-- 回答はここに書いてね -->
     </div>
 </div>

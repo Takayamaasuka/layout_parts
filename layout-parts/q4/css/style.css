@@ -1,5 +1,146 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.wrapper {
+  width: 500px;
+  margin: auto;
+
+}
+
+.square {
+  background-color: #ecf1f2;
+  width: 500px;
+  height: 500px;
+  position: relative;
+  font-size: 30px;
+}
+
+
+.a {
+  background-color: #ffefd3;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 40px;
+  left: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.b {
+  background-color: #7084de;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 120px;
+  left: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+.c {
+  background-color: #d0ecea;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 200px;
+  left: 360px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 3;
+}
+
+.d {
+  background-color: #8b7a5e;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 280px;
+  left: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 4;
+}
+
+.e {
+  background-color: #9fd6d2;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  bottom: 40px;
+  left: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 5;
+}
+
+.f {
+  background-color: #fffee4;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  bottom: 120px;
+  right: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 6;
+}
+
+.g {
+  background-color: #deae70;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  bottom: 200px;
+  right: 360px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 7;
+}
+
+.h {
+  background-color: #de70cf;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  bottom: 280px;
+  right: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 8;
+}
+
+.i {
+  background-color: #2b69a3;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.h::after {
+  position: absolute;
+  content: " ";
+  width: 20px;
+  height: 20px;
+  top: 0;
+  margin-left: 22px;
+  background-color: #ffefd3;
+
+}
 
 /* 回答はここに書いてね */

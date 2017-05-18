@@ -1,5 +1,32 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.wrapper {
+  width: auto;
+  margin: auto;
+}
 
+table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+td,th {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #dedede;
+}
+
+th {
+  background-color: #2244aa;
+  color: #fff;
+}
+
+tr:nth-child(2n+1) {
+  background-color: #ecf1f2;
+}
+
+tr:last-child {
+  border-top: 2px dashed #000;
+}
 /* 回答はここに書いてね */

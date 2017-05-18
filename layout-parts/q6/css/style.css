@@ -2,4 +2,87 @@
 
 /* 回答はここに書いてね */
 
+.small {
+display: inline-block;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.small>div {
+  font-size: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 26px;
+  border-radius: 3px;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.middle {
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.middle>div {
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 32px;
+  border-radius: 5px;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.large {
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.large>div {
+  font-size: 24px;
+  padding-left: 25px;
+  padding-right: 25px;
+  height: 38px;
+  border-radius: 7px;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.common {
+  background-color: #00bcd4;
+  color: #fff;
+  cursor: pointer;
+}
+
+.error {
+  background-color: #ff4081;
+  color: #fff;
+  cursor: pointer;
+}
+
+.disabled {
+  background-color: #e5e5e5;
+  color: #fff;
+  pointer-events: none;
+}
+
+.shadow {
+  color: #222;
+  border-color: #fff;
+  box-shadow: 0 1px 6px rgba(0,0,0,.12);
+  box-shadow: 0 1px 4px rgba(0,0,0,.12);
+  cursor: pointer;
+}
+
 /* 回答はここに書いてね */
