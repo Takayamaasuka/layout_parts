@@ -2,61 +2,34 @@
 
 /* 回答はここに書いてね */
 
-.small {
-display: inline-block;
-display: flex;
-align-items: center;
-justify-content: center;
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.small>div {
+.small {
   font-size: 15px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0px 15px;
   height: 26px;
   border-radius: 3px;
   margin: 5px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .middle {
-  display: inline-block;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.middle>div {
   font-size: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 0 20px;
   height: 32px;
   border-radius: 5px;
   margin: 5px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .large {
-  display: inline-block;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.large>div {
   font-size: 24px;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding: 0 25px;
   height: 38px;
   border-radius: 7px;
   margin: 5px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .common {

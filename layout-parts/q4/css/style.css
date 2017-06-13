@@ -15,112 +15,72 @@
   font-size: 30px;
 }
 
-
-.a {
-  background-color: #ffefd3;
+.box-layout {
+  position: absolute;
   width: 100px;
   height: 100px;
-  position: absolute;
-  top: 40px;
-  left: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.box1 {
+  background-color: #ffefd3;
+  top: 40px;
+  left: 200px;
   z-index: 1;
 }
 
-.b {
+.box2 {
   background-color: #7084de;
-  width: 100px;
-  height: 100px;
-  position: absolute;
   top: 120px;
   left: 280px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   z-index: 2;
 }
 
-.c {
+.box3 {
   background-color: #d0ecea;
-  width: 100px;
-  height: 100px;
-  position: absolute;
   top: 200px;
   left: 360px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   z-index: 3;
 }
 
-.d {
+.box4 {
   background-color: #8b7a5e;
-  width: 100px;
-  height: 100px;
-  position: absolute;
   top: 280px;
   left: 280px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   z-index: 4;
 }
 
-.e {
+.box5 {
   background-color: #9fd6d2;
-  width: 100px;
-  height: 100px;
-  position: absolute;
   bottom: 40px;
   left: 200px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   z-index: 5;
 }
 
-.f {
+.box6 {
   background-color: #fffee4;
-  width: 100px;
-  height: 100px;
-  position: absolute;
   bottom: 120px;
   right: 280px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   z-index: 6;
 }
 
-.g {
+.box7 {
   background-color: #deae70;
-  width: 100px;
-  height: 100px;
-  position: absolute;
   bottom: 200px;
   right: 360px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   z-index: 7;
 }
 
-.h {
+.box8 {
   background-color: #de70cf;
-  width: 100px;
-  height: 100px;
-  position: absolute;
   bottom: 280px;
   right: 280px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   z-index: 8;
 }
 
-.i {
+.box9 {
   background-color: #2b69a3;
   position: fixed;
   top: 10px;
@@ -132,7 +92,7 @@
   justify-content: center;
 }
 
-.h::after {
+.box8::after {
   position: absolute;
   content: " ";
   width: 20px;

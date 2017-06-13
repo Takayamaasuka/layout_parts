@@ -4,28 +4,32 @@
 
 .container {
   background-color: #ecf1f2;
-  padding-left: 20px;
-  padding-top: 20px;
-  padding-right: 20px;
-
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 .cal {
   display: flex;
+  margin-bottom: 20px;
 }
 
-.cal>div {
-background-color: #FFF;
-width: 100%;
-height: 50px;
-margin-left: 20px;
-margin-bottom: 20px;
-font-size: 16px;
+.layout {
+  background-color: #FFF;
+  margin-left: 20px;
+  font-size: 16px;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
 }
 
-.cal>div:first-child {
+.layout:first-child {
   margin-left: 0;
 }
+
+.cal:last-child {
+  margin-bottom: 0;
+}
+
 
 .grid12 {
   width: 100%;
@@ -51,13 +55,20 @@ font-size: 16px;
   width: 16.666%;
 }
 
-.center {
-  text-align: center;
-  vertical-align: middle;
-  line-height: 50px;
-  display: block;
+.grid6_1 {
+  width: 50.96%;
 }
 
+.grid3_1 {
+  width: 24.5%;
+}
 
+.grid2_1 {
+  width: 16%;
+}
+
+.grid4_1 {
+  width: 34%;
+}
 
 /* 回答はここに書いてね */

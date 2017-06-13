@@ -6,10 +6,9 @@
   text-align: center;
 }
 
-.text1>p {
+.text-rayout1 {
   display: inline-block;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px 0px 10px 10px;
   width: 90px;
   background-color: #e6f2ff;
 }
@@ -18,18 +17,20 @@
   margin-left: auto;
   margin-right: auto;
   width: 90px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px 0px 10px 0px;
   text-align: center;
   background-color: #e6f2ff;
 }
 
 .q5__box {
   text-align: center;
-  display: table;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.table {
+  display: table;
 }
 
 .q5__vertical__table__inner {
@@ -72,11 +73,11 @@
   -webkit-transform: translate(-50%,-50%);
   -moz-transform: translate(-50%,-50%);
   -o-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
   transform: translate(-50%,-50%);
   width: 110px;
   height: 30px;
   padding: 10px;
-
 }
 
 /* 回答はここに書いてね */

@@ -11,7 +11,6 @@
   vertical-align: middle;
   margin: 10px;
   font-size: 16px;
-
 }
 
 .q7__init {
@@ -32,8 +31,12 @@
   padding: 5px;
 }
 
+.q7__input:focus {
+  box-shadow: 0 0 7px #00bcd4;
+}
+
 .q7__input::-webkit-input-placeholder  {
-    color: #00bcd4;
+  color: #00bcd4;
   }
 
 .q7__textarea {
@@ -54,7 +57,7 @@
 
 .radio__text::before {
   position: absolute;
-  top:50%;
+  top: 50%;
   left: 0;
   width: 14px;
   height: 14px;
@@ -106,7 +109,7 @@
 .check__btn:checked + .check__text::after {
   position: absolute;
   top: 5px;
-  left:3px;
+  left: 3px;
   width: 13px;
   height: 5px;
   border-bottom: 2px solid #00BCD4;
